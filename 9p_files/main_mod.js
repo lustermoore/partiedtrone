@@ -238,7 +238,8 @@ var $board = $('.board'),
                 "martell": $('[name="housecards-martell"]').val(),
                 "stark": $('[name="housecards-stark"]').val(),
                 "targaryen": $('[name="housecards-targaryen"]').val(),
-				"tyrell": $('[name="housecards-tyrell"]').val()
+				"tyrell": $('[name="housecards-tyrell"]').val(),
+		"vassals": $('[name="housecards-vassals"]').val()    
             },
 			
 			"housecardTracking": {
@@ -313,6 +314,15 @@ var $board = $('.board'),
 					$('[name="housecard-4-tyrell"]').is(':checked'),
 					$('[name="housecard-5-tyrell"]').is(':checked'),
 					$('[name="housecard-6-tyrell"]').is(':checked')
+				],
+				"vassals": [
+					$('[name="housecard-0-vassals"]').is(':checked'),
+					$('[name="housecard-1-vassals"]').is(':checked'),
+					$('[name="housecard-2-vassals"]').is(':checked'),
+					$('[name="housecard-3-vassals"]').is(':checked'),
+					$('[name="housecard-4-vassals"]').is(':checked'),
+					$('[name="housecard-5-vassals"]').is(':checked'),
+					$('[name="housecard-6-vassals"]').is(':checked')
 				]
 			},
             
@@ -389,6 +399,7 @@ var $board = $('.board'),
         $('[name="housecards-stark"]').val(conf.housecards.stark);
         $('[name="housecards-targaryen"]').val(conf.housecards.targaryen);
         $('[name="housecards-tyrell"]').val(conf.housecards.tyrell);
+	$('[name="housecards-vassals"]').val(conf.housecards.vassals);
 		
 		if (conf.housecardTracking) {
 			$('[name="housecard-0-arryn"]').attr('checked', conf.housecardTracking.arryn[0]);
@@ -454,6 +465,14 @@ var $board = $('.board'),
 			$('[name="housecard-4-tyrell"]').attr('checked', conf.housecardTracking.tyrell[4]);
 			$('[name="housecard-5-tyrell"]').attr('checked', conf.housecardTracking.tyrell[5]);
 			$('[name="housecard-6-tyrell"]').attr('checked', conf.housecardTracking.tyrell[6]);
+			
+			$('[name="housecard-0-vassals"]').attr('checked', conf.housecardTracking.vassals[0]);
+			$('[name="housecard-1-vassals"]').attr('checked', conf.housecardTracking.vassals[1]);
+			$('[name="housecard-2-vassals"]').attr('checked', conf.housecardTracking.vassals[2]);
+			$('[name="housecard-3-vassals"]').attr('checked', conf.housecardTracking.vassals[3]);
+			$('[name="housecard-4-vassals"]').attr('checked', conf.housecardTracking.vassals[4]);
+			$('[name="housecard-5-vassals"]').attr('checked', conf.housecardTracking.vassals[5]);
+			$('[name="housecard-6-vassals"]').attr('checked', conf.housecardTracking.vassals[6]);
 		}
 
         $('[name="availablePowertokens-arryn"]').val(conf.availablePowertokens.arryn);
