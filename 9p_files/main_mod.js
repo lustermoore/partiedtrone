@@ -84,6 +84,21 @@ var $board = $('.board'),
 		if (conf.ironbank7 && conf.ironbank7 != 'empty') {
 			htmlString += '<div class="iron-bank bank-7"><img src="9p_files/images/loans/' + conf.ironbank7 + '.jpg"/></div>';
 		}
+	    
+	    if (conf.westeroscard1 && conf.westeroscard1 != 'empty') {
+			htmlString += '<div class="westeroscard-1"><img src="9p_files/images/loans/' + conf.westeroscard1 + '.jpg"/></div>';
+		}
+		if (conf.westeroscard2 && conf.westeroscard2 != 'empty') {
+			htmlString += '<div class="westeroscard-2"><img src="9p_files/images/loans/' + conf.westeroscard2 + '.jpg"/></div>';
+		}
+		if (conf.westeroscard3 && conf.westeroscard3 != 'empty') {
+			htmlString += '<div class="westeroscard-3"><img src="9p_files/images/loans/' + conf.westeroscard3 + '.jpg"/></div>';
+		}
+	    
+	    if (conf.westeroscard4 && conf.westeroscard4 != 'empty') {
+			htmlString += '<div class="westeroscard-4"><img src="9p_files/images/loans/' + conf.westeroscard4 + '.jpg"/></div>';
+		}
+	    
         if (conf.dragonsStrength) {
             for (var i = 1; i <= conf.dragonsStrength; i++) {
                 htmlString += '<div class="dragons-strength"></div>';
@@ -363,6 +378,11 @@ var $board = $('.board'),
 		$('[name="iron-bank-1"]').val(conf.ironbank1);
 		$('[name="iron-bank-4"]').val(conf.ironbank4);
 		$('[name="iron-bank-7"]').val(conf.ironbank7);
+	    
+	    $('[name="westeros-card-1"]').val(conf.westeroscard1);
+	    $('[name="westeros-card-2"]').val(conf.westeroscard2);
+	    $('[name="westeros-card-3"]').val(conf.westeroscard3);
+	    $('[name="westeros-card-4"]').val(conf.westeroscard4);
 
         $('[name="units-arryn"]').val(conf.units.arryn);
         $('[name="units-baratheon"]').val(conf.units.baratheon);
