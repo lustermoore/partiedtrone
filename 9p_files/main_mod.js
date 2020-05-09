@@ -86,17 +86,17 @@ var $board = $('.board'),
 		}
 	    
 	    if (conf.westeroscard1 && conf.westeroscard1 != 'empty') {
-			htmlString += '<div class="westeroscard-1"><img src="9p_files/images/loans/' + conf.westeroscard1 + '.jpg"/></div>';
+			htmlString += '<div class="westeroscard-1"><img src="9p_files/images/westeroscards/' + conf.westeroscard1 + '.jpg"/></div>';
 		}
 		if (conf.westeroscard2 && conf.westeroscard2 != 'empty') {
-			htmlString += '<div class="westeroscard-2"><img src="9p_files/images/loans/' + conf.westeroscard2 + '.jpg"/></div>';
+			htmlString += '<div class="westeroscard-2"><img src="9p_files/images/westeroscards/' + conf.westeroscard2 + '.jpg"/></div>';
 		}
 		if (conf.westeroscard3 && conf.westeroscard3 != 'empty') {
-			htmlString += '<div class="westeroscard-3"><img src="9p_files/images/loans/' + conf.westeroscard3 + '.jpg"/></div>';
+			htmlString += '<div class="westeroscard-3"><img src="9p_files/images/westeroscards/' + conf.westeroscard3 + '.jpg"/></div>';
 		}
 	    
 	    if (conf.westeroscard4 && conf.westeroscard4 != 'empty') {
-			htmlString += '<div class="westeroscard-4"><img src="9p_files/images/loans/' + conf.westeroscard4 + '.jpg"/></div>';
+			htmlString += '<div class="westeroscard-4"><img src="9p_files/images/westeroscards/' + conf.westeroscard4 + '.jpg"/></div>';
 		}
 	    
         if (conf.dragonsStrength) {
