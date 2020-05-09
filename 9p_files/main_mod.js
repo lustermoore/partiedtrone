@@ -211,6 +211,10 @@ var $board = $('.board'),
 			"ironbank1": $('[name="iron-bank-1"]').val(),
 			"ironbank4": $('[name="iron-bank-4"]').val(),
 			"ironbank7": $('[name="iron-bank-7"]').val(),
+		        "westeroscard1": $('[name="westeros-card-1"]').val(),
+			"westeroscard2": $('[name="westeros-card-2"]').val(),
+			"westeroscard3": $('[name="westeros-card-3"]').val(),
+		"westeroscard4": $('[name="westeros-card-4"]').val(),
             
             "units": {
 				"arryn": $('[name="units-arryn"]').val(),
