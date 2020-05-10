@@ -2268,13 +2268,13 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
 }
 
 .westeroscard-3 {
-	left: 1686px;
+	position: absolute;
 	top: 275px;
-	left: 1524px;
+	left: 1361px;
 }
 
 .westeroscard-4 {
-	left: 1686px;
+	position: absolute;
 	top: 275px;
 	left: 1524px;
 }
