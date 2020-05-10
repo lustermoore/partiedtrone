@@ -2257,24 +2257,24 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
 
 .westeroscard-1 {
 	position: absolute;
-	top: 25px;
-	left: 2000px;
+	top: 20px;
+	left: 2105px;
 }
 
 .westeroscard-2 {
 	position: absolute;
-	top: 50px;
-	left: 1524px;
+	top: 20px;
+	left: 2285px;
 }
 
 .westeroscard-3 {
 	position: absolute;
-	top: 275px;
-	left: 1361px;
+	top: 230px;
+	left: 2105px;
 }
 
 .westeroscard-4 {
 	position: absolute;
-	top: 275px;
-	left: 1524px;
+	top: 230px;
+	left: 2285px;
 }
