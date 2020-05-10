@@ -2257,8 +2257,8 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
 
 .westeroscard-1 {
 	position: absolute;
-	top: 50px;
-	left: 1361px;
+	top: 25px;
+	left: 2000px;
 }
 
 .westeroscard-2 {
